@@ -12,8 +12,10 @@ print('Hello' + 'User') # print all together
 print('Hello' + ' ' + 'User')   # print with added space
 print('Hello ' + 'User')    # added space to first word
 
-########## Input Function #############
+########## Variable / Input Function #############
 
 
-username = input('Whats you name? ')    # prompt user for an input
-print('Welcome ' + username)    # print greeting to the user
+name = input('Whats you name? ')    # prompt user for an input
+print('Welcome ' + name)    # print greeting to the user
+
+print('Your full name is: ' + name + ' ' + input("what's your lastname? ")) # all in a single line
